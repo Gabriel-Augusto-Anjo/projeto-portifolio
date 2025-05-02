@@ -1,3 +1,47 @@
 #projetos {
+    margin-top: 90rem;
+    justify-self: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 136.6rem; 
+    height: 91.7rem;
+    padding: 7.2rem 12rem 14.4rem;
+    gap: 5.6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom:0;
     
+   span {
+    color: var(--red);
+   }
+
+    .meus-projetos {
+        display: grid;
+        grid-auto-rows: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        padding: 0rem;
+        width: 104rem;
+        height: 58.4rem;
+        gap: 2.4rem;
+        max-width: 100%;
+
+        img {
+            width: 30.6rem;
+            height: 15.6rem;
+            border-radius: 1.2rem;
+        }
+       
+        .fundo-1 {
+            border-radius: 1.2rem;
+            object-fit: cover;
+            overflow: hidden;
+            padding: 1.2rem;
+            gap: 2rem;
+        }
+    }
 }

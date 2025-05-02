@@ -56,6 +56,7 @@ body {
 
 .h3 {
     font: var(--title-sm);
+    color: var(--gray-600);
 }
 
 .h4 {
@@ -73,6 +74,6 @@ body {
     color: var(--gray-500);
 }
 
-h1, h2, h3, h4, p, p1 {
+h1, h2, h3, h4, p, .p1 {
     font: inherit;
 }
