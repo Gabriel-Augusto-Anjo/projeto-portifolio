@@ -1,0 +1,11 @@
+.grid {
+    display: grid;
+}
+
+.grid-cols {
+    grid-auto-flow: column;
+}
+
+.fundo-1 {
+    background-color: var(--gray-300);
+}
