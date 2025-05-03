@@ -35,3 +35,4 @@ bottom: 15.62%;
 
 /* Main/Purple */
 background: #BB72E9;
+

@@ -55,3 +55,55 @@
         }
     }
 }
+
+#meus-servicos {
+    width: 136.6rem;
+    height: 48rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--gray-100);
+    padding: 8.8rem 12rem 12rem;
+
+    .h4 {
+        color: var(--red);
+    }
+
+    .h2 {
+        margin-top: 0.9rem;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: row;
+        gap: 2.4rem;
+        width: 88.8rem;
+        height: 15.5rem;
+        text-align: left;
+        margin-top: 5.6rem;
+
+        .servicos {
+            width: 28rem;
+            height: 15.5rem;
+            padding: 2rem;
+            border-radius: solid 1.2rem var(--gray300);
+            
+
+            h3 {
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .s1, .s2, .s3 {
+                width: 4.8rem;
+                height: 4.8rem;
+                object-fit: cover;
+                position: relative;
+            }
+        }
+
+    }
+
+}
