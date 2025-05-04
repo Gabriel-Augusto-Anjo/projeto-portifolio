@@ -36,6 +36,13 @@
 
 body {
     background-color: var(--gray-200);
+    display: grid;
+
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "main main"
+    "footer footer";
 }
 .container {
     max-width: 152.6rem;
